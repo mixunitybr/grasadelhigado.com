@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Oswald&family=Ubuntu:wght@400;700&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/0572283b45.js"></script>
+  <link rel="stylesheet" href="com.css">
+  <title>Queima Acelerada</title>
+  <style type="text/css">
+    a {
+      color: #00a4e5;
+    }
+
+    .adv-pages {
+      margin-bottom: 30px;
+    }
+
+    .adv-pages .container {
+      padding-right: 12px;
+      padding-left: 12px;
+    }
+
+    .adv-pages a {
+      text-decoration: none;
+    }
+
+    .adv-pages .adv-bg {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center bottom;
+      padding-bottom: 50px;
+    }
+
+
+    .adv-pages .adv-bg .hero-image-first-text-line p {
+      color: #808080;
+      font-size: 16px;
+      font-weight: 500;
+      padding-top: 10px;
+    }
+
+    .adv-pages .adv-bg .head-text h1 {
+      font-size: 25px;
+      line-height: normal;
+      text-shadow: 2px 2px 23px #0000005c;
+      margin-bottom: 0;
+      margin-top: -5px;
+    }
+
+    .adv-pages .adv-bg .PHR-logo img {
+      max-width: 170px;
+    }
+
+    .adv-pages .adv-body-text,
+    .adv-vsl-link:not(:last-of-type) {
+      margin-top: 30px;
+    }
+
+    .adv-pages .adv-body-text p {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+    }
+
+    .adv-pages .adv-body-text .adv-inline-img {
+      float: right;
+      margin-left: 10px;
+      width: 170px;
+      height: 90px;
+    }
+
+    .adv-pages .adv-body-text .adv-vsl-link {
+      font-size: 20px;
+      line-height: 32px;
+      text-align: left;
+      margin-bottom: 0;
+    }
+
+    .adv-pages .adv-body-text .adv-videolink {
+      text-align: center;
+      margin: 30px auto;
+    }
+
+    .adv-pages .adv-body-text .adv-videolink img,
+    .adv-pages .adv-body-text .adv-img-line {
+      width: auto;
+      margin: 0 auto;
+      display: block;
+    }
+
+    .adv-pages .adv-body-text .adv-img-line p {
+      font-size: 25px;
+      line-height: 40px;
+      font-weight: 400;
+    }
+
+    .adv-footer-bg {
+      background-color: #F2F2F2;
+    }
+
+    .main-footer .footer-menu>.container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .main-footer p,
+    .main-footer .footer-menu a {
+      font-size: 12px;
+      line-height: 19px;
+    }
+
+    .main-footer .footer-p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    .main-footer .footer-menu a:last-child {
+      padding-right: 0;
+      margin-right: 0;
+    }
+
+    @media only screen and (min-width: 576px) {
+      .adv-pages .adv-bg--a {
+        background-image: url("/assets/images/avd8/lh-avd8a-bg-sm.jpg");
+      }
+
+      .adv-pages .adv-bg--b {
+        background-image: url("/assets/images/avd8/lh-avd8b-bg-sm.jpg");
+      }
+
+      .adv-pages .adv-body-text .adv-inline-img {
+        width: 203px;
+        height: 120px;
+      }
+
+      .main-footer .footer-menu>.container {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+
+    @media only screen and (min-width: 768px) {
+      .adv-pages {
+        margin-bottom: 40px;
+      }
+
+      .adv-pages .adv-bg--a {
+        background-image: url("/assets/images/avd8/lh-avd8a-bg-md.jpg");
+      }
+
+      .adv-pages .adv-bg--b {
+        background-image: url("/assets/images/avd8/lh-avd8b-bg-md.jpg");
+      }
+
+      .adv-pages .adv-bg .hero-image-first-text-line p {
+        margin-bottom: 35px;
+      }
+
+      .adv-pages .adv-bg .PHR-logo img {
+        max-width: 300px;
+      }
+
+      .adv-pages .adv-bg .head-text h1 {
+        font-size: 56px;
+      }
+
+      .adv-pages .adv-body-text,
+      .adv-pages .adv-body-text .adv-vsl-link:not(:last-of-type) {
+        margin-top: 40px;
+      }
+
+      .adv-pages .adv-body-text p {
+        font-size: 20px;
+        line-height: 32px;
+      }
+
+      .adv-pages .adv-body-text .adv-inline-img {
+        width: 248px;
+        height: 151px;
+      }
+    }
+
+    @media only screen and (min-width: 992px) {
+      .adv-pages .container {
+        max-width: 944px;
+      }
+
+      .adv-pages .adv-bg--a {
+        background-image: url("/assets/images/avd8/lh-avd8a-bg-lg.jpg");
+      }
+
+      .adv-pages .adv-bg--b {
+        background-image: url("/assets/images/avd8/lh-avd8b-bg-lg.jpg");
+      }
+
+      .adv-pages .adv-bg .hero-image-first-text-line p {
+        margin-bottom: 55px;
+      }
+
+      .adv-pages .adv-body-text .adv-videolink img,
+      .adv-pages .adv-body-text .adv-img-line {
+        width: 770px;
+      }
+
+      .adv-pages .adv-body-text .adv-inline-img {
+        width: 359px;
+        height: 160px;
+      }
+
+      .adv-pages .adv-body-text .adv-inline-img:first-of-type {
+        width: 355px;
+        margin-left: 14px;
+      }
+    }
+
+    @media only screen and (min-width: 1200px) {
+      .adv-pages {
+        margin-bottom: 50px;
+      }
+
+      .adv-pages .adv-bg--a {
+        background-image: url("/assets/images/avd8/lh-avd8a-bg-xl.jpg");
+      }
+
+      .adv-pages .adv-bg--b {
+        background-image: url("/assets/images/avd8/lh-avd8b-bg-xl.jpg");
+      }
+
+
+      .adv-pages .adv-bg .hero-image-first-text-line p {
+        margin-bottom: 25px;
+      }
+
+      .adv-pages .adv-body-text,
+      .adv-pages .adv-body-text .adv-vsl-link:not(:last-of-type) {
+        margin-top: 50px;
+      }
+    }
+
+    .main-footer {
+      font-size: 12px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+
+    .revPage {
+      font-size: 16px;
+    }
+
+    .footer-p {
+      margin-bottom: 15px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .footer-menu a {
+      color: #000;
+      font-size: 12px;
+      text-decoration: none;
+      border-right: 1px solid;
+      line-height: 1;
+      padding-right: 9px;
+      margin-right: 9px;
+      display: inline-block;
+    }
+
+    .bold {
+      font-weight: 600;
+    }
+
+    .revPage a {
+      color: #0091BC;
+      text-decoration: none;
+    }
+
+    .revPage a:hover {
+      color: #0091BC;
+      text-decoration: underline;
+    }
+
+    @media only screen and (max-width: 767px) {
+      .main-footer {
+        font-size: 11px;
+      }
+
+      .footer-menu a {
+        font-size: 12px;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+      .main-footer {
+        font-size: 12px;
+      }
+
+      .footer-menu a {
+        font-size: 11px;
+      }
+
+      .revPage {
+        font-size: 14px;
+      }
+    }
+
+    @media only screen and (max-width: 320px) {
+      .footer-menu a {
+        font-size: 9px;
+      }
+    }
+
+    .feFcb>p:first-child {
+      font-weight: 600;
+      padding-bottom: 0px !important;
+    }
+
+    .feFcb .footer-menu {
+      padding-bottom: 10px;
+    }
+
+    /* Sticky */
+
+    body {
+      display: flex;
+      flex-direction: column;
+      height: 100vh !important;
+    }
+
+    .footerPusher {
+      flex-grow: 1;
+    }
+
+    .adv-footer-bg {
+      flex-shrink: 0;
+    }
+
+    /* sticky end */
+
+    .footer__textSecretLink {
+      display: none;
+    }
+
+    a.various {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .adv-bg--c {
+      background-image: url("./Adventorial.png");
+      height: 400px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .adv-bg--c {
+        background-image: url("./Adventorial.png");
+        height: 200px
+      }
+    }
+
+    .pointer {
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="adv-pages">
+    <a class="ga-adv-pre" href="/presentation">
+      <div class="adv-bg adv-bg--c">
+      </div>
+    </a>
+
+    <div class="container">
+      <div class="text-justify adv-body-text">
+        <p>Si te cuesta deshacerte de esos kilos de más o te sientes cansado y con poca energía, podrías tener un hígado
+          sobrecargado. Aquí hay 7 errores que dañan el hígado y a los que debes prestar atención:</p>
+        <p>1. <strong>. No beber suficiente agua</strong> — La regla de oro es beber al menos 8 vasos llenos de agua
+          cada día. Según la Dra. Michele Neil-Sherwood del Instituto Médico Funcional, "La deshidratación puede tener
+          un efecto directo en la capacidad de nuestro hígado para desintoxicar adecuadamente nuestro cuerpo." Cuando tu
+          hígado no puede eliminar esas toxinas, el riesgo de enfermedad aumenta.</p>
+        <p>2. <strong>Comer comidas pesadas o alimentos de alto índice glucémico antes de acostarse</strong> — Comer
+          comidas pesadas antes de acostarse es una forma garantizada de hacer que su hígado trabaje horas extras. Los
+          alimentos de alto índice glucémico son los peores culpables en este caso. Esto incluye alimentos como el pan,
+          el arroz blanco, los dulces e incluso frutas "saludables" como la sandía y la piña. Los expertos recomiendan
+          evitar estos alimentos que gravan el hígado antes de acostarse. Si te apetece un tentempié, opta por las
+          zanahorias frescas, que ayudan a limpiar el hígado.</p>
+        <p>3. <strong>Comer demasiadas grasas trans </strong> — Las grasas trans son conservantes peligrosos que suelen
+          encontrarse en los alimentos envasados. A menudo aparecen como "aceites hidrogenados" en la lista de
+          ingredientes. Consumir demasiadas grasas trans aumenta el aumento de peso, acumulando más grasa en el hígado y
+          el vientre.</p>
+        <p>4. <strong>Comer demasiado azúcar</strong> — el azúcar refinado y el jarabe de maíz de alta fructosa causan
+          estragos en el hígado. Algunos estudios sugieren que puede dañar tu hígado tanto como el alcohol, sin tener
+          sobrepeso. La fructosa se convierte en grasa en el cuerpo, lo que aumenta su riesgo de desarrollar un hígado
+          graso.</p>
+        <p>5. <strong>No hacer suficiente ejercicio</strong> — Hacer una cantidad adecuada de ejercicio es importante,
+          incluso si no tienes sobrepeso. El ejercicio no sólo le ayuda a sudar, sino que también mejora la
+          desintoxicación del hígado. Incluso varios paseos a paso ligero cada semana pueden reportar grandes
+          beneficios.</p>
+        <p>6. <strong>Consumir demasiada vitamina A </strong> — De toda esta lista, ¡ésta podría ser la que más te
+          sorprenda! La vitamina A proporciona muchos beneficios en dosis normales, como la protección de los ojos y el
+          apoyo a un sistema inmunológico saludable. Pero un exceso de vitamina A es tóxico para el hígado. ¿Cuánto es
+          demasiado? Por lo general, dosis superiores a 40.000 UI diarias. La mayoría de las personas no tendrán que
+          preocuparse por excederse con la vitamina A. Sin embargo, si tomas múltiples vitaminas y suplementos que
+          contienen vitamina A, presta mucha atención a la cantidad total que estás consumiendo.</p>
+        <p>7. <strong>Tomar los suplementos herbales equivocados</strong> — Ciertos extractos de hierbas, como el kava
+          kava, pueden ser perjudiciales para el hígado. Por eso, tomar los nutrientes adecuados es crucial para
+          rejuvenecer el hígado y restablecer un metabolismo saludable.</p>
+        <p>Ahora existe un nuevo avance casero que desintoxica y rejuvenece el hígado desde el interior. Y lo que es
+          mejor, puede encender un metabolismo saludable y podría disparar la energía en sólo 30 segundos cada mañana.
+        </p>
+        <p>Vea este breve vídeo para saber de qué se trata.</p>
+
+        <p class="adv-vsl-link">
+          <u class="text-left">
+            <a class="ga-adv-pre" href="/presentation">Haga clic aquí para ver la presentación:</a>
+          </u>
+        </p>
+
+        <div class="adv-videolink">
+          <a class="ga-adv-pre" href="/presentation">
+            <button class="various video-btn p-0">
+              <img class=" ls-is-cached lazyloaded pointer w-100" alt="Image" src="Ver.jpg">
+            </button>
+          </a>
+        </div>
+
+        <p class="adv-vsl-link">
+          <u class="text-left">
+            <a class="ga-adv-pre" href="/presentation">Haga clic aquí para ver la presentación:</a>
+          </u>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="adv-footer-bg">
+
+    <div class="footerPusher"></div>
+
+    <footer class="main-footer pt-25 pb-25  adv-footer-bg ">
+      <div class="container">
+        <div class="text-center">
+
+
+
+          <p>ESTE ES UN ANUNCIO Y NO UN ARTÍCULO DE NOTICIAS, BLOG O ACTUALIZACIÓN DE PROTECCIÓN AL CONSUMIDOR</p>
+
+
+
+          <p class="footer-p">
+            La información en este sitio web no ha sido evaluada por la Administración de Alimentos y Medicamentos.
+            Estos productos no están destinados a diagnosticar, tratar, curar o prevenir ninguna enfermedad.
+          </p>
+
+
+
+
+          <div class="footer-menu">
+            <div class="container">
+
+              <a href="https://grasadelhigado.com/termos.html" class="various" target="_blank">Terms</a>
+              <a href="https://grasadelhigado.com/privacidade.html" style="border-right: none;"
+                target="_blank">Privacy</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="com.js"></script>
+</body>
+
+</html>
